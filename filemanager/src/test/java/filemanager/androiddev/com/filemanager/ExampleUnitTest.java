@@ -1,4 +1,4 @@
-package com.androiddev.filemanager.library;
+package filemanager.androiddev.com.filemanager;
 
 import org.junit.Test;
 

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".FileManipulationActivity">
+    <Button
+        android:id="@+id/btn_clear_file_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear file content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_file_content"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <Button
+            android:id="@+id/btn_write_to_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Write to File" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_file_content"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+        <Button
+            android:id="@+id/btn_read_from_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Read from File" />
+
+    </LinearLayout>
+
+</LinearLayout>
